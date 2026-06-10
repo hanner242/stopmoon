@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moon Stopwatch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌙 Travel Time</h1>
+
+    <div class="moon-face">
+      <div class="crater crater1"></div>
+      <div class="crater crater2"></div>
+      <div class="crater crater3"></div>
+      <div class="crater crater4"></div>
+      <div class="eye left">
+        <div class="pupil"></div>
+      </div>
+      <div class="eye right">
+        <div class="pupil"></div>
+      </div>
+      <div class="mouth"></div>
+      <div class="time-display" id="display">00:00.0</div>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="lapBtn" disabled>Lap</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <ul id="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
