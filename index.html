@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cat Stopwatch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Travel Time</h1>
+
+    <div class="cat-face">
+      <div class="ear left"></div>
+      <div class="ear right"></div>
+      <div class="face">
+        <div class="eye left">
+          <div class="pupil"></div>
+        </div>
+        <div class="eye right">
+          <div class="pupil"></div>
+        </div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+        <div class="whiskers left">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="whiskers right">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="time-display" id="display">00:00.0</div>
+      </div>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="lapBtn" disabled>Lap</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <ul id="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
